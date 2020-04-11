@@ -1,0 +1,15 @@
+{
+    "labels": {
+        "topLabel": "Top",
+        "newLabel": "New",
+        "byLabel": "by",
+        "hoursLabel": "hours",
+        "agoLabel": "ago",
+        "hideLabel": "hide",
+        "moreLabel": "More",
+        "upLabel": "up"
+    },
+    "apiUrls": {
+        "frontPage": "http://hn.algolia.com/api/v1/search?tags=front_page"
+    }
+}

@@ -1,0 +1,3 @@
+export const HACKER_NEWS = {
+    SESSION_HITS: 'SESSION_HITS'
+}
