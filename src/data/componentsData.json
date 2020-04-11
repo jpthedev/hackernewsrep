@@ -10,6 +10,6 @@
         "upLabel": "up"
     },
     "apiUrls": {
-        "frontPage": "http://hn.algolia.com/api/v1/search?tags=front_page"
+        "frontPage": "https://hn.algolia.com/api/v1/search?tags=front_page"
     }
 }
