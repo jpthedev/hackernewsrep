@@ -2,10 +2,6 @@
   "name": "hackernews1",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "8.1.1",
-    "npm": "5.0.3"
-  },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.9.5",
