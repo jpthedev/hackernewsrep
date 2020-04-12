@@ -37,7 +37,7 @@ function NewsItem(props) {
     }
 
     return (
-        <>
+        <React.Fragment>
         {hideHits &&
         <div className='news-item-wrapper'>
             <section  className='news-item'>
@@ -56,7 +56,7 @@ function NewsItem(props) {
                     <a target='_blank' rel='noopener noreferrer' href={url}>({ url && getDomainName(url)})</a>
                     <span className=
                    'text-light'>{labels.byLabel}</span>
-                    <span className='text-time'><b>{author}</b></span>
+                    <span className='text-medium'><b>{author}</b></span>
                     <span className='text-time'>{timeDiff}</span>
                     <span className='text-time'>{labels.hoursLabel}</span>
                     <span className='text-time'>{labels.agoLabel}</span>                      
@@ -66,7 +66,7 @@ function NewsItem(props) {
             </section>
         </div>
         }
-        </>
+        </React.Fragment>
     )
 }
 
